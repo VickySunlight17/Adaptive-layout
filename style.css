@@ -1,0 +1,515 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+.border {/* контейнер для хедера*/
+	width: 1100px; /* должно быть написано, чтобы работало центрирование*/
+	margin: 0 auto;
+	
+	position: relative;
+	/*font-size:0; для того, чтобы не было полоски между блоками*/
+}
+sup{ /*Отображает шрифт в виде верхнего индекса*/ 
+	
+	font-size:37%;
+    position:relative;
+	bottom:4px;
+	left:1px;	
+}
+.pantone {
+	vertical-align: top; /* чтобы блок не съезжал вниз */
+	display: inline-block;
+	width: 502px;
+	height: 358px;
+	background-color: #ff5e65;
+	color: white;
+}
+.wbox{
+	border-radius:4px;
+	margin-left: 40px;
+	margin-top: 60px;
+	width:120px;
+	height:125px;
+	border: 5px solid white; /* Толщина рамки в пикселах, тип границы, цвет линии */
+	padding: 15px; /* Расстояние от текста до рамки */
+	font-size:130%;
+}
+.colorof{
+	margin-top:0px; 
+	margin-bottom:0px;
+}
+.lcoral{
+	margin-left: 60px;	
+}
+.livcor{
+	margin-top:15px; 
+	margin-bottom:1px;
+	font-size:170%;
+}
+.c16-1546{
+	font-size:90%;
+}
+.pic {/* картинка с цветом*/
+	width: 502px;
+	height: 358px;
+	display: inline-block;
+	background-image: url(images/csp2.jpg); /* Путь к фоновому изображению */
+	background-size: 100%;
+	position:absolute;
+}
+.text{
+	text-align: center;
+	font-size: 350%;
+	margin-left:-120px;
+	margin-bottom: 20px;
+	margin-top: 60px;
+	font-weight: 900;
+}
+.year{
+	width: 950px; /* должно быть написано, чтобы работало центрирование*/
+	height: 500px;
+	margin: 0 auto;	
+}
+.palette{
+	vertical-align: top; /* чтобы блок не съезжал вниз */
+	display: inline-block;
+	width: 401px;
+	height: 460px;	
+}
+li{
+    color: black; /* Цвет маркеров */
+   }
+.focal{
+	color:#ff5e65;
+	}
+.coral{
+	display: inline-block;
+	width: 401px;
+	height: 500px;
+}
+.cube{
+	width: 370px;
+	height: 370px;
+	border:9px solid #ff5e65;
+	border-radius: 5px 5px;
+	COLOR: #ff676e;
+}
+.smallcube{
+		display: inline-block;
+		margin: 0 auto;
+		width: 250px;
+		height: 30px;
+}
+.scube
+{
+	display: inline-block;
+    width: 20px;
+    height: 20px;  
+    left: -37px;
+    margin: 5px 4;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.s11{
+	background: #494744;
+}
+.s2
+{
+	background: #a29981;	
+}
+.s3
+{
+	background: #f56b64;	
+}
+.s4
+{
+	background: #9f5967;	
+}
+.s5
+{
+	background: #949740;	
+}
+.s6
+{
+	background: #6d684f;	
+}
+.s7
+{
+	background: #244946;	
+}
+.s8
+{
+	background: #b3b7b4;	
+}
+.s9
+{
+	background: #f59f6a;	
+}
+.s10
+{
+	background: #d27746;	
+}
+.s11
+{
+	background: #f29d37;	
+}
+.s12
+{
+	background: #f56b64;	
+}
+.s13
+{
+	background: #963f6d;	
+}
+.s14
+{
+	background: #e07aa4;	
+}
+.s15
+{
+	background: #dc5281;	
+}
+.s16
+{
+	background: #f4899a;	
+}
+.s17
+{
+	background: #d2b798;
+}
+.s18
+{
+	background: #c5a480;	
+}
+.s19
+{
+	background: #f09f9c;	
+}
+.s20
+{
+	background: #e06076;	
+}
+.s21
+{
+	background: #e5a887;	
+}
+.s22
+{
+	background: #bb847b;	
+}
+.s23
+{
+	background: #773934;	
+}
+.s24
+{
+	background: #f56b64;	
+}
+.s25
+{
+	background: #e56689;	
+}
+.s26
+{
+	background: #3575b3;	
+}
+.s27
+{
+	background: #226269;	
+}
+.s28
+{
+	background: #317f9d;	
+}
+.s29
+{
+	background: #9a2357;	
+}
+.s30
+{
+	background: #7b5695;	
+}
+.s31
+{
+	background: #f56b64;	
+}
+.s32
+{
+	background: #ceda36;	
+}
+.s33
+{
+	background: #9ddbdc;	
+}
+.s34
+{
+	background: #f7dd41;	
+}
+.s35
+{
+	background: #d793a9;
+}
+.s36
+{
+	background: #f56b64;	
+}
+.s37
+{	background: #7d8851;
+	
+}
+.s38
+{
+	background: #329196;	
+}
+.s39
+{
+	background: #304b8c;	
+}
+.s40
+{
+	background: #2d2e55;	
+}
+.pink{
+	color: #ff676e;
+	display: inline;
+}
+.basic{
+	margin-bottom: 0px;
+}
+.bike{
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	font-size: 70%;
+}
+.circle1{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	background-color: #5c1922;
+	border:1px solid #5c1922;
+	border-radius: 100px 100px;
+}
+.circle2{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	background-color: #f6e4d8;
+	border:1px solid #f6e4d8;
+	border-radius: 100px 100px;
+}.circle3{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	background-color: #1c203b;
+	border:1px solid #1c203b;
+	border-radius: 100px 100px;
+}.circle4{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	background-color:#f3a479;
+	border:1px solid #f3a479;
+	border-radius: 100px 100px;
+}
+.creme{
+	vertical-align: top; /* чтобы блок не съезжал вниз */
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	font-size: 70%;
+}
+.blue{
+	vertical-align: top; /* чтобы блок не съезжал вниз */
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	font-size: 70%;
+}
+.peach{
+	vertical-align: top; /* чтобы блок не съезжал вниз */
+	display: inline-block;
+	width: 230px;
+	height: 230px;
+	font-size: 70%;
+}
+.b1{
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	background: #ff5e65; /* розовый цвет фона */ 
+	/*border-color: #e0454d; #e0454d;*/ 
+    color: white; /* Белые буквы */ 
+    font-size: 160%; /* Размер шрифта в пунктах */
+	margin-bottom: 10px;
+	margin-top: 30px;	
+	box-shadow: 0 -3px #e0454d inset;
+	border-style: solid;
+	border-width:0px;
+}
+.btn{	
+	text-align: center;
+}
+.wrap{	
+	margin: 0 auto;
+}
+.cubewrap{
+	display: inline-block;
+	height: 380px; /* Высота блока */
+    width: 700px; /* Ширина блока */
+}
+.cube1 {
+	display: inline-block;
+	height: 464px; /* Высота блока */
+    width: 230px; /* Ширина блока */
+	background-color: #f56b64;
+}
+.cube2 {
+	display: inline-block;
+	height: 230px; /* Высота блока */
+    width: 230px; /* Ширина блока */	
+}
+.b11{
+	background-color: #f4899a;
+}
+.b2{
+	background-color: #dc5281;
+}
+.b3{
+	background-color: #963f6d;
+}
+.b4{
+	background-color: #f59f6a;
+}
+.b5{
+	background-color: #d27746;
+}
+.b6{
+	background-color: #f29d37;
+}
+body {
+   /*Убрать полоску сверху от боди*/
+   margin-top:0px;
+    background-color: #ffffff; /* Цвет фона */
+   }
+h1{
+	   font-weight: 900;
+	   font-size: 300%;
+   }
+h2{
+	   color: #808080;
+	   margin-top: 5px;
+	   font-weight: 300;
+   }
+@media screen and (max-width: 480px)
+{	
+	*{
+		margin-left:0px;
+	}
+	h1{
+	   font-weight: 900;
+	   font-size: 250%;
+   }
+   .border {/* контейнер для хедера*/
+	width: 460px; /* должно быть написано, чтобы работало центрирование*/
+}
+	.pic{
+	display:none;
+	}
+	.year{
+		width: 85%;
+		margin: 0 auto;
+	}
+	.text{
+	position:absolute;
+	left:170px;
+	bottom:790px;
+	color:white;
+	font-size:40px;
+	width:150px;
+	}
+	.pantone {
+	width: 350px;
+	height: 358px;
+	padding-left:230px;
+	background-color: #ff5e65;
+	color: white;
+	}
+	.cube{
+		width: 480px;
+	height: 370px;
+	border:0px solid #ff5e65;
+	}	
+	ul{
+	padding-left:0px;
+	}
+	li {
+    color: white; /* Цвет маркеров */
+   }
+   .focal{
+		color:#ff5e65;
+		font-size:150%;
+}
+	.palette{
+		display: inline-block;
+		width: 401px;
+		height: 1060px;
+}
+	.scube{
+		display: inline-block;
+		width: 60px;
+		height: 120px;
+		position:relative;
+		font-size:0;
+		margin-left: -8px;	
+	}
+	.smallcube{
+		display: inline-block;
+		margin: 0 auto;
+		width: 500px;
+		height: 130px;
+		position:relative;
+		MARGIN: 15px 0px;
+}
+	.wrap{	
+	
+	height: 260px; /* Высота блока */
+	width: 480px; /* Ширина блока */
+	margin-left:-30px;	
+}
+	.cube1 {
+		height: 224px; /* Высота блока */
+		width: 110px; /* Ширина блока */	
+}
+	.cubewrap{
+		vertical-align: top; /* чтобы блок не съезжал вниз */		
+		height: 245px; /* Высота блока */
+		width: 350px; /* Ширина блока */	
+}
+	.cube2 {
+	height: 110px; /* Высота блока */
+    width: 110px; /* Ширина блока */
+}
+	.bike{	
+		width: 480px;
+		height: 200px; /* Высота блока */
+}
+	.creme{
+	width: 460px;
+	height: 200px; /* Высота блока */
+}
+	.blue{	
+		width: 460px;
+		height: 200px; /* Высота блока */
+}
+	.peach{	
+		width: 460px;
+		height: 200px; /* Высота блока */
+}
+	.circletext{
+		margin-left:15px;
+		vertical-align: top; /* чтобы блок не съезжал вниз */
+		margin-top:30px;
+		display: inline-block;
+		width: 230px;
+}
+}
